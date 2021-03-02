@@ -1,0 +1,176 @@
+﻿ID,Process ID,Process Name,Host Name,Kernel Name,Kernel Time,Context,Stream,Section Name,Metric Name,Metric Unit,Metric Value
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,dram__bytes.sum,byte,139101952
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,l1tex__t_bytes.sum,byte,366738240
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,lts__t_bytes.sum,byte,224106432
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__cycles_elapsed.avg,cycle,277581.2
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__cycles_elapsed.avg.per_second,cycle/second,1314105817
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__inst_executed_pipe_tensor.sum,inst,0
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_dadd_pred_on.sum,inst,0
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_dfma_pred_on.sum,inst,0
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_dmul_pred_on.sum,inst,0
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,22077240
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,5836800
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,8755200
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_hadd_pred_on.sum,inst,0
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_hfma_pred_on.sum,inst,0
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,Command line profiler metrics,sm__sass_thread_inst_executed_op_hmul_pred_on.sum,inst,0
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,DRAM Frequency,cycle/second,879563702.5
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,SM Frequency,cycle/second,1314130119
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,Elapsed Cycles,cycle,277718
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,Memory [%],%,73.11
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,SOL DRAM,%,73.11
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,Duration,nsecond,211232
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,SOL L1/TEX Cache,%,68.63
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,SOL L2 Cache,%,44.83
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,SM Active Cycles,cycle,267722.41
+0,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:10,1,15,GPU Speed Of Light,SM [%],%,14.53
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,dram__bytes.sum,byte,139077536
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,l1tex__t_bytes.sum,byte,366791296
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,lts__t_bytes.sum,byte,224116992
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__cycles_elapsed.avg,cycle,277167.45
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__cycles_elapsed.avg.per_second,cycle/second,1302674509
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__inst_executed_pipe_tensor.sum,inst,0
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_dadd_pred_on.sum,inst,0
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_dfma_pred_on.sum,inst,0
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_dmul_pred_on.sum,inst,0
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,22077240
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,5836800
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,8755200
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_hadd_pred_on.sum,inst,0
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_hfma_pred_on.sum,inst,0
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,Command line profiler metrics,sm__sass_thread_inst_executed_op_hmul_pred_on.sum,inst,0
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,DRAM Frequency,cycle/second,872010828.7
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,SM Frequency,cycle/second,1302692761
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,Elapsed Cycles,cycle,277278
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,Memory [%],%,73.2
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,SOL DRAM,%,73.2
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,Duration,nsecond,212768
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,SOL L1/TEX Cache,%,68.73
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,SOL L2 Cache,%,44.9
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,SM Active Cycles,cycle,269200.09
+1,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:19,1,18,GPU Speed Of Light,SM [%],%,14.56
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,dram__bytes.sum,byte,139095328
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,l1tex__t_bytes.sum,byte,366792576
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,lts__t_bytes.sum,byte,224087680
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__cycles_elapsed.avg,cycle,276433.17
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__cycles_elapsed.avg.per_second,cycle/second,1303339879
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__inst_executed_pipe_tensor.sum,inst,0
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_dadd_pred_on.sum,inst,0
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_dfma_pred_on.sum,inst,0
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_dmul_pred_on.sum,inst,0
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,22077240
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,5836800
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,8755200
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_hadd_pred_on.sum,inst,0
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_hfma_pred_on.sum,inst,0
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,Command line profiler metrics,sm__sass_thread_inst_executed_op_hmul_pred_on.sum,inst,0
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,DRAM Frequency,cycle/second,872435123.7
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,SM Frequency,cycle/second,1303357913
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,Elapsed Cycles,cycle,276561
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,Memory [%],%,73.41
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,SOL DRAM,%,73.41
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,Duration,nsecond,212096
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,SOL L1/TEX Cache,%,68.91
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,SOL L2 Cache,%,45
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,SM Active Cycles,cycle,269635.92
+2,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:28,1,21,GPU Speed Of Light,SM [%],%,14.59
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,dram__bytes.sum,byte,139101632
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,l1tex__t_bytes.sum,byte,366804640
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,lts__t_bytes.sum,byte,224112352
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__cycles_elapsed.avg,cycle,277305.28
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__cycles_elapsed.avg.per_second,cycle/second,1297662450
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__inst_executed_pipe_tensor.sum,inst,0
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_dadd_pred_on.sum,inst,0
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_dfma_pred_on.sum,inst,0
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_dmul_pred_on.sum,inst,0
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,22077240
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,5836800
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,8755200
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_hadd_pred_on.sum,inst,0
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_hfma_pred_on.sum,inst,0
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,Command line profiler metrics,sm__sass_thread_inst_executed_op_hmul_pred_on.sum,inst,0
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,DRAM Frequency,cycle/second,868748128.2
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,SM Frequency,cycle/second,1297682221
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,Elapsed Cycles,cycle,277432
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,Memory [%],%,73.17
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,SOL DRAM,%,73.17
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,Duration,nsecond,213696
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,SOL L1/TEX Cache,%,68.69
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,SOL L2 Cache,%,44.87
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,SM Active Cycles,cycle,269311.89
+3,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:37,1,17,GPU Speed Of Light,SM [%],%,14.55
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,dram__bytes.sum,byte,139113632
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,l1tex__t_bytes.sum,byte,366778720
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,lts__t_bytes.sum,byte,224107040
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__cycles_elapsed.avg,cycle,277371.17
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__cycles_elapsed.avg.per_second,cycle/second,1309342782
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__inst_executed_pipe_tensor.sum,inst,0
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_dadd_pred_on.sum,inst,0
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_dfma_pred_on.sum,inst,0
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_dmul_pred_on.sum,inst,0
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,22077240
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,5836800
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,8755200
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_hadd_pred_on.sum,inst,0
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_hfma_pred_on.sum,inst,0
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,Command line profiler metrics,sm__sass_thread_inst_executed_op_hmul_pred_on.sum,inst,0
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,DRAM Frequency,cycle/second,876435045.3
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,SM Frequency,cycle/second,1309366346
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,Elapsed Cycles,cycle,277502
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,Memory [%],%,73.17
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,SOL DRAM,%,73.17
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,Duration,nsecond,211840
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,SOL L1/TEX Cache,%,68.68
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,SOL L2 Cache,%,44.87
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,SM Active Cycles,cycle,269582.08
+4,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:47,1,20,GPU Speed Of Light,SM [%],%,14.54
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,dram__bytes.sum,byte,139085632
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,l1tex__t_bytes.sum,byte,366809312
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,lts__t_bytes.sum,byte,224105312
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__cycles_elapsed.avg,cycle,277493.45
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__cycles_elapsed.avg.per_second,cycle/second,1307155609
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__inst_executed_pipe_tensor.sum,inst,0
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_dadd_pred_on.sum,inst,0
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_dfma_pred_on.sum,inst,0
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_dmul_pred_on.sum,inst,0
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,22077240
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,5836800
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,8755200
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_hadd_pred_on.sum,inst,0
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_hfma_pred_on.sum,inst,0
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,Command line profiler metrics,sm__sass_thread_inst_executed_op_hmul_pred_on.sum,inst,0
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,DRAM Frequency,cycle/second,875037684.7
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,SM Frequency,cycle/second,1307173902
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,Elapsed Cycles,cycle,277616
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,Memory [%],%,73.12
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,SOL DRAM,%,73.12
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,Duration,nsecond,212288
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,SOL L1/TEX Cache,%,68.65
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,SOL L2 Cache,%,44.83
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,SM Active Cycles,cycle,269874.94
+5,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:27:56,1,16,GPU Speed Of Light,SM [%],%,14.54
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,dram__bytes.sum,byte,139071360
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,l1tex__t_bytes.sum,byte,366828192
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,lts__t_bytes.sum,byte,224049824
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__cycles_elapsed.avg,cycle,276198.15
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__cycles_elapsed.avg.per_second,cycle/second,1292094639
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__inst_executed_pipe_tensor.sum,inst,0
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_dadd_pred_on.sum,inst,0
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_dfma_pred_on.sum,inst,0
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_dmul_pred_on.sum,inst,0
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,22077240
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,5836800
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,8755200
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_hadd_pred_on.sum,inst,0
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_hfma_pred_on.sum,inst,0
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,Command line profiler metrics,sm__sass_thread_inst_executed_op_hmul_pred_on.sum,inst,0
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,DRAM Frequency,cycle/second,865194610.8
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,SM Frequency,cycle/second,1292115768
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,Elapsed Cycles,cycle,276338
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,Memory [%],%,73.43
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,SOL DRAM,%,73.43
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,Duration,nsecond,213760
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,SOL L1/TEX Cache,%,68.97
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,SOL L2 Cache,%,45.03
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,SM Active Cycles,cycle,266445.91
+6,153218,picongpu,127.0.0.1,ComputeCurrent,2020-Oct-25 20:28:05,1,19,GPU Speed Of Light,SM [%],%,14.6

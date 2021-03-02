@@ -1,0 +1,6 @@
+﻿ID,Process ID,Process Name,Host Name,Kernel Name,Kernel Time,Context,Stream,Section Name,Metric Name,Metric Unit,Metric Value
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,SQ_INSTS_SALU,inst,48068160
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,SQ_INSTS_VALU,inst,309335040
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,FetchSize,bytes,1227967000
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,WriteSize,bytes,638516000
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,time,us,6028.629
