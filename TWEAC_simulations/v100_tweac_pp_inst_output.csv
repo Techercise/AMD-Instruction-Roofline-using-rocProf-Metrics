@@ -1,0 +1,13 @@
+﻿ID,Process ID,Process Name,Host Name,Kernel Name,Kernel Time,Context,Stream,Section Name,Metric Name,Metric Unit,Metric Value
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,inst_executed,inst,18253000000
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,gld_transactions,transactions,1107486332
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,gst_transactions,transactions,902517828
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,local_load_transactions,transactions,0
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,local_store_transactions,transactions,0
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,shared_load_transactions,transactions,10208000000
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,shared_store_transactions,transactions,21220948
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,l2_read_transactions,transactions,410260101
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,l2_write_transactions,transactions,909906277
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,dram_read_transactions,transactions,378711658
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,dram_write_transactions,transactions,317649341
+0,95642,picongpu,127.0.0.1,MoveAndMark,2020-Oct-25 19:59:36,1,16,Command line profiler metrics,time,us,93183

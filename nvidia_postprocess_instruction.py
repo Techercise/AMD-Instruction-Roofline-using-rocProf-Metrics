@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from plot_roofline_hierarchical import roofline
+from nvidia_plot_roofline_hierarchical import roofline
 
 datadir = '/Users/matthewleinhauser/PycharmProjects/roofline_plots'
 files = [x for x in os.listdir(datadir) if x.endswith('.csv') and x.startswith('tweac_cc_inst_output_2021')]

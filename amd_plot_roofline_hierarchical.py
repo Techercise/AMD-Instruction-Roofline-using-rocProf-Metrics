@@ -68,6 +68,12 @@ def roofline(filename, flops, hbm_ai, l2_ai=None, l1_ai=None, labels=None, flag=
     ymin = 0.1
     ymax = 2000
 
+    # nx = 10000
+    # xmin = -2
+    # xmax = 2
+    # ymin = 1
+    # ymax = 2000
+
     ax.set_xlim(10 ** xmin, 10 ** xmax)
     ax.set_ylim(ymin, ymax)
 
