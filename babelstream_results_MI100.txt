@@ -1,0 +1,25 @@
+BabelStream
+Version: 3.4
+Implementation: HIP
+Running kernels 100 times
+Precision: double
+Array size: 268.4 MB (=0.3 GB)
+Total size: 805.3 MB (=0.8 GB)
+Using HIP device Device 738c
+Driver: 320400
+Function    MBytes/sec  Min (sec)   Max         Average     
+Copy        933355.781  0.00058     0.00064     0.00058     
+Mul         935144.115  0.00057     0.00061     0.00058     
+Add         933167.051  0.00086     0.00088     0.00087     
+Triad       933881.274  0.00086     0.00088     0.00087     
+Dot         709712.057  0.00076     0.00089     0.00082 
+
+
+
+Matt's Additions:
+Function    GBytes/sec  Min (sec)   Max         Average     
+Copy        933.355781  0.00058     0.00064     0.00058     
+Mul         935.144115  0.00057     0.00061     0.00058     
+Add         933.167051  0.00086     0.00088     0.00087     
+Triad       933.881274  0.00086     0.00088     0.00087     
+Dot         709.712057  0.00076     0.00089     0.00082 

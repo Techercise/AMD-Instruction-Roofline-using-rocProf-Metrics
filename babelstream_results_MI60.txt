@@ -1,0 +1,15 @@
+BabelStream
+Version: 3.4
+Implementation: HIP
+Running kernels 100 times
+Precision: double
+Array size: 268.4 MB (=0.3 GB)
+Total size: 805.3 MB (=0.8 GB)
+Using HIP device Vega 20
+Driver: 320400
+Function    MBytes/sec  Min (sec)   Max         Average     
+Copy        808975.476  0.00066     0.00071     0.00067     
+Mul         813472.822  0.00066     0.00068     0.00067     
+Add         782056.607  0.00103     0.00104     0.00104     
+Triad       781403.243  0.00103     0.00104     0.00104     
+Dot         606510.441  0.00089     0.00090     0.00089
