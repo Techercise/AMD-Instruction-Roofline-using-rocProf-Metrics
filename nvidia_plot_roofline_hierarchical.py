@@ -55,6 +55,9 @@ def roofline(filename, flops, hbm_ai, l2_ai=None, l1_ai=None, labels=None, flag=
     # Performance Roofline TWEAC Both Precisions Move and Mark
     # cmp_roofs = [('SP', 13436373015739.15 / pow(10, 12)), ('DP', 6720574586780.95 / pow(10, 12))]
 
+    # Instruction Roofline ALL V100 Simulations
+    # cmp_roofs = [('Theoretical Peak', 489600000000/pow(10, 12))]
+
     fig = plt.figure(1, figsize=(10.67, 6.6))
     plt.clf()
     ax = fig.gca()
@@ -143,7 +146,7 @@ def roofline(filename, flops, hbm_ai, l2_ai=None, l1_ai=None, labels=None, flag=
             ax.plot(float(l1_ai[i]), float(flops[i]), c=colors[2], marker=styles[0],
                     linestyle='None', ms=markersize, markerfacecolor='none',
                     markeredgewidth=markerwidth, label=labels[i] if labels else "unknown")
-            
+
             # Additional L1 point
             # ax.plot(float(0.39776702157496163), float(221.46128516402553), c=colors[1], marker=styles[0],
             #         linestyle='None', ms=markersize, markerfacecolor='none',
@@ -185,18 +188,18 @@ def roofline(filename, flops, hbm_ai, l2_ai=None, l1_ai=None, labels=None, flag=
                                           markerfacecolor='none', markeredgewidth=markerwidth, label=mem_roofs[i][0])[
                                       0])
 
+    # Comment out line 194 and uncomment line 195 if generating an instruction roofline
     for roof in cmp_roofs:
         ax.text(x[-ixx], roof[1] * 1024,
                 roof[0] + ': ' + '{0:.1f}'.format(roof[1]) + ' TFLOP/s',
                 # roof[0] + ': ' + '{0:.1f}'.format(roof[1]) + ' warp TIPS',
-                # roof[0] + ': ' + str(float(roof[1]) * 1000) + ' wavefront GIPS',
                 horizontalalignment='right',
                 verticalalignment='bottom')
     for roof in mem_roofs:
         ang = np.arctan(np.log10(xlim[1] / xlim[0]) / np.log10(ylim[1] / ylim[0])
                         * fig.get_size_inches()[1] / fig.get_size_inches()[0])
-        
-        # Comment out line 202 and uncomment line 203 if generating an instruction roofline
+
+        # Comment out line 205 and uncomment line 206 if generating an instruction roofline
         if x[ixx] * roof[1] > ymin:
             ax.text(x[ixx], x[ixx] * roof[1] * (1 + 0.25 * np.sin(ang) ** 2),
                     roof[0] + ': ' + '{0:.1f}'.format(float(roof[1])) + ' GB/s',
@@ -204,8 +207,8 @@ def roofline(filename, flops, hbm_ai, l2_ai=None, l1_ai=None, labels=None, flag=
                     horizontalalignment='left',
                     verticalalignment='bottom',
                     rotation=180 / np.pi * ang)
-        
-        # Comment out line 218 and uncomment line 219 if generating an instruction roofline
+
+        # Comment out line 221 and uncomment line 222 if generating an instruction roofline
         else:
             ymin_ix_elbow = list()
             ymin_x_elbow = list()
@@ -231,7 +234,7 @@ def roofline(filename, flops, hbm_ai, l2_ai=None, l1_ai=None, labels=None, flag=
             patch_handles.append(mpatches.Patch(color=colors[i % 10], label=labels[i] if labels else "unknown"))
 
     # The string here is the text that will be displayed on your plot.
-    ax.text(xlim[0] * 1.1, ylim[1] / 1.1, 'NVIDIA V100 Roofline Model', horizontalalignment='left',
+    ax.text(xlim[0] * 1.1, ylim[1] / 1.1, 'V100 Roofline Model', horizontalalignment='left',
             verticalalignment='top')
 
     plt.savefig('generic_v100_roofline.png')
