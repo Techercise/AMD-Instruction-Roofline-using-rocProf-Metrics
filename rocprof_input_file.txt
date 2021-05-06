@@ -1,0 +1,9 @@
+   # Perf counters group 1
+   pmc : FetchSize SQ_INSTS_VALU
+   # Perf counters group 2
+   pmc : WriteSize SQ_INSTS_SALU
+   # Filter by dispatches range, GPU index and kernel names
+   # supported range formats: "3:9", "3:", "3"
+   range:
+   gpu: 0
+   kernel: 
