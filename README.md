@@ -19,3 +19,9 @@ When running a job (or submitting a job to run), the binary file needs to be pre
 After the job finishes running, the results will be stored in a csv file with the same name as the input file (ex: rocprof_input_file.csv).
 
 ### 3. After rocProf Metrics are Gathered
+After you get a csv file with the metric data from rocProf, if there are multiple kernel streams, average out the metric values (see the corresponding sample csv file) and put the averages into a new csv file like [this one](https://github.com/Techercise/AMD-Instruction-Roofline-using-rocProf-Metrics/blob/main/LWFA_simulations/mi100_lw_cc_inst_output.csv).
+**NOTE:** The only important parts of the sample csv file are the metric names, units, and values. The columns to the left of those three columns were put in place to make the csv look more like the csv files from Nsight Compute.
+
+### 4. Run the Python code
+The Python files `amd_postprocess_instruction.py` and `amd_plot_roofline_hierarchical.py` are virtually ready to run. Simply edit `amd_post_process_instruction.py` with the name of and path to your average values csv file (see Step 3). Then, if needed, edit `amd_plot_roofline_hierarchical.py` to update the memory bandwidth and theoretical peak GIPS values.
+__If you need roofline data for more than one device, follow steps 1 - 3 again while running on the new device and then follow the comments in_ `amd_plot_roofline_hierarchical.py`.
